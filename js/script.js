@@ -12,7 +12,7 @@ $(document).ready(function(){
 			if(!flag){
 				$("#logo").css({"margin-top": "-5px", "width": "50px","height":"50px","opacity": "1"});
 
-				$("header").css({"background-color": "#981e1b"});
+				$("header").css({"background-color": "#965752"});
 				flag = true;
 			}
 		}else{
