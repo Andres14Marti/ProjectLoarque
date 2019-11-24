@@ -19,7 +19,7 @@ header{
 	position: fixed;
 	width: 100%;
 	height: 115px;
-	background-color: transparent;
+	background-color: #965752;
 	-webkit-transition: background-color .5s;
 }
 
@@ -130,6 +130,8 @@ h1 i{
 
 	img#logo{
 		display:none;
+		width: 150px;
+		height: 150px;
 	}
 
 	header{
@@ -166,13 +168,13 @@ h1 i{
 		width:100%;
 		height: 100%;
 		margin: 0;
-		background-color: transparent;
+		background-color: #965752;;
 		opacity: 0.8;
 		-webkit-transition: background-color .5s;
 	}
 
 	nav{
-		display: table;
+		display: block;
 		float: none;
 		width: 40%;
 		height: auto;
@@ -201,7 +203,7 @@ h1 i{
 	.menu_bar{
 		display: block;
 		width: 100%;
-		background: #ccc;
+		background:#965752; 
 
 	}
 
