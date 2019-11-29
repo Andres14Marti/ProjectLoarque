@@ -1,0 +1,47 @@
+body{
+    /**background:url(../img/bn2.jpg)*/
+    background-color: #f1cab6;
+}
+
+.content-box-Mora {
+  background-color: #ffffff7a;
+  width: 100%;
+
+  margin: 20px;
+  margin: 2rem;
+
+  margin-left: 0pt;
+  margin-right: 0pt;
+
+  padding: 50px;
+}
+
+.content-box-Freson {
+    background-color: #96575281;
+    width: 60%;
+  
+    margin: 20px;
+    margin: 2rem;
+  
+    margin-left: 20%;
+    margin-right: 20%;
+  
+    padding: 50px;
+  }
+
+.orden{
+  display: flex;
+  margin: auto;
+}
+
+.content-box-Mora h2{
+    color: #d44f45;
+}
+
+.font ul li{
+    color: #d44f45;
+}
+
+.font ul p{
+    margin-top: 20px;
+}
