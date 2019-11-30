@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+}
+body{
+	background-color: #f1cab6;
+}
+section#banner{
+	width: 100%;
+	background-image: url(../img/bn3.jpg);
+	background-attachment: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	height: 115px;
+	background-color: #965752;
+	-webkit-transition: background-color .5s;
+}
+
+nav{
+	display: table;
+	margin: auto;
+	margin-top: 15px;
+	height: 40px;
+	-webkit-transition: margin-left .5s;
+}
+
+ul{
+	display: table;
+	float: left;
+	list-style: none;
+
+}
+
+ul li {
+	float: left;
+	margin: 10px;
+	padding: 2px;
+	font-family: 'Lobster',bold, cursive;
+	font-size: 25px;
+	text-shadow: 4px 3px 3px silver;
+}
+
+ul li a{
+	font-family: 'Lobster',bold, cursive;
+	font-size: 25px;
+	text-shadow: 4px 3px 3px silver;
+}
+
+ul a{
+	color: #F3F3F3;
+	text-decoration: none;
+}
+
+/*Lo que agregue Diana Palma*/
+nav li ul{
+	background: #965752;
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+nav li:hover > ul{
+	display: block;
+}
+/*Hasta aqui*/
+
+img#logo{
+	float:left;
+	display: block;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: -5px;
+	-webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
+	opacity: 0.8;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 42px;
+	font-family: 'Lobster', cursive;
+	text-shadow: 7px 5px 5px #000;
+
+}
+
+h1 i{
+	font-size: 52px; 
+	font-family: 'Lobster',bold, cursive;
+}
+
+.menu_bar{
+	display: none;
+}
+
+/*seccion actlit*/
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #965752;
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.activi li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.activi ul li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.activi p{
+    text-align: justify;
+}
+
+@keyframes cambio{
+	0% {margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%}
+	45%{margin-left: -100%}
+
+	50%{margin-left: -200%}
+	70%{margin-left: -200%}
+
+	75%{margin-left: -300%}
+	100%{margin-left: -300%}
+}
+
+/*menu adaptable*/
+@media screen and (max-width: 1310px){
+
+	img#logo{
+		display:none;
+		width: 150px;
+		height: 150px;
+	}
+
+	header{
+		position: fixed;
+		width:100%;
+		height: 100%
+		margin:0;
+		background-color: #965752;
+		opacity: 0.8;
+	}
+	
+	nav {
+		display: flex;
+		float: center;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	ul li{
+		/*float: center;*/
+		align-items: center;
+
+
+	}
+	
+}
+
+@media screen and (max-width: 1000px){
+
+ .titulo{
+ 	display: none;
+ }
+	header {
+		width:100%;
+		height: 100%;
+		margin: 0;
+		background-color: #965752;;
+		opacity: 0.8;
+		-webkit-transition: background-color .5s;
+	}
+
+	nav{
+		display: block;
+		float: none;
+		width: 40%;
+		height: auto;
+		
+		
+	}
+	ul{
+		float:left;
+	
+		
+	}
+
+	ul li{
+		float: none;
+		margin: 10px;
+		padding: 2px;
+		font-family: 'Lobster',bold, cursive;
+		font-size: 25px;
+		text-shadow: 4px 3px 3px silver;
+ 		border-bottom: 1px solid rgba(255,255,255.3);
+
+	}
+
+	
+
+	.menu_bar{
+		display: block;
+		width: 100%;
+		background:#965752; 
+
+	}
+
+	.menu_bar .bt_menu{
+		display: block;
+		padding: 20px;
+		background: #955752;
+		color: #F3F3F3;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing: border-box;
+	}
+}
