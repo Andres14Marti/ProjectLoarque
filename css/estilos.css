@@ -11,21 +11,32 @@ body{
 }
 
 /*-------- Inicia el menu --------*/
-header{
+
+/**/
+.inicio {
+  
     background-image: url("../img/bn3.jpg");
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-position: center;
     overflow: hidden;
+   /* position: fixed;*/
+  
 }
 
-header nav{
+
+
+
+header  nav{
     height: 80px;
     background: linear-gradient(to right, #eea849, #f46b45);
     display: flex;
     justify-content: space-between;
     opacity: 0.9;
+    position: relative;
+    z-index: 3;
+    
 }
 
 .icono{
@@ -71,7 +82,7 @@ header .textos{
     text-align: center;
     color: #fff;
     margin-top: 350px;
-    text-shadow: 4px 3px 3px gray;
+    text-shadow: 6px 4px 4px gray;
 
 }
 
@@ -84,15 +95,10 @@ header .textos h1{
    
 }
 
-header.textos h2{
-    font-size: 30px;
-    font-weight: 600;
-    font-family: 'Bebas Neue', cursive;
-}
+
 /*-------- termina el menu --------*/
 
 
-/**************************************************  DIMENSIONES ***************************************************************/
 
 														/*BANNER*/														
 
@@ -317,9 +323,7 @@ header.textos h2{
 /*-----Termina Dimensiones---- */
 
 
-
-/*-----Inica el div de contactanos---- */
-.info-container {
+.info-container{
 	width: 100%;
 	background: #f2f2f2;
 	font-family: Raleway;
@@ -356,7 +360,7 @@ header.textos h2{
 
 /*----Footer------*/
 
-ffooter {
+footer {
 	width: 100%;
 	font-family: Raleway;
 }
@@ -461,6 +465,17 @@ ffooter {
 	background: #fff;
 	color: #000;
 	text-align: center;
+}
+.footer-copy-redes .footer-redes #facebook:hover{
+    background-color:#4267B2;
+}
+
+.main-copy-redes .footer-redes #twitter:hover{
+    background-color:#00ACED ;
+}
+
+.main-copy-redes .footer-redes #youtube:hover{
+    background-color:#FF0000 ;
 }
 
 
